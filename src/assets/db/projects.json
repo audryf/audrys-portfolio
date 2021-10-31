@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Forge",
+        "description": "A place to connect for tech bootcamp students. Share experiences or ask coding questions for fellow students and grads to review, or jump right in and help out other boot campers with their projects!",
+        "skillsUsed": [
+            "Node.js",
+            "Handlebars",
+            "JavaScript",
+            "bcrypt",
+            "MySql",
+            "sequelize"
+        ],
+        "github": "https://github.com/ratalla816/Forge",
+        "deployed": "https://forge-team.herokuapp.com/splash",
+        "role": "Back-end developer",
+        "images": []
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "See the weather for any location in the US. Your searches will be saved for easy future planning. Enter in the city and state you wish to see the weather for and get current conditions, plus 5-day forecast.",
+        "skillsUsed": [
+            "Third-Party API",
+            "BootStrap",
+            "JavaScript"
+        ],
+        "github": "https://github.com/audryf/weather-dashboard",
+        "deployed": "https://audryf.github.io/weather-dashboard/",
+        "role": "Sole Author",
+        "images": []
+    },
+    {
+        "title": "Budget Tracker",
+        "description": "Budget Tracker - a PWA that allows you to keep track of expenses and earnings anytime, anywhere.",
+        "skillsUsed": [
+            "Express.js",
+            "MongoDB / Mongoose",
+            "Service Workers",
+            "IndexedDB"
+        ],
+        "github": "https://github.com/audryf/budget-tracker",
+        "deployed": "https://immense-refuge-78406.herokuapp.com/",
+        "role": "Sole Author",
+        "images": []
+    }
+]

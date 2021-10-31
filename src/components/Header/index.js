@@ -1,12 +1,16 @@
 import React from "react";
-import './Navigation';
+import Navigation from "../Navigation";
+// import './Navigation';
 
-function Header () {
+function Header() {
 
     return (
-        <div>
-
-        </div>
+        <h2>
+            <a href="/" className="container-fluid text-sm-center p-5 bg-light">
+                Audry Ford Web Developer
+            </a>
+            <Navigation></Navigation>
+        </h2>
     )
 }
 
