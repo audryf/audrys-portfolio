@@ -4,7 +4,7 @@ function Resume () {
 
     return (
         <div>
-
+{/* this can be on the about page? */}
         </div>
     )
 }

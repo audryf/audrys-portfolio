@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from '../../assets/images/avatar/avataaars.svg'
+import avatar from '../assets/images/avatar/avataaars.png'
 
 function About() {
 
@@ -9,7 +9,7 @@ function About() {
                 <img src={avatar} alt="avatar" height="100rem"/>
             </span>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. </p>
+                <p>Energized by my decision to change career paths, I am a tech bootcamp grad looking to make a difference, the sky's the limit. I have found my calling. Learning the in's and out's of web development, front-end and back-end, has been exciting and rewarding. I thrive on constructive feedback and learn new things quickly. I love to collaborate in teams and want to take my skills to the next level.</p>
             </div>
         </section>
 

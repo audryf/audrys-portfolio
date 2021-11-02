@@ -5,12 +5,15 @@ import Navigation from "../Navigation";
 function Header() {
 
     return (
-        <h2>
-            <a href="/" className="container-fluid text-sm-center p-5 bg-light">
-                Audry Ford Web Developer
-            </a>
-            <Navigation></Navigation>
-        </h2>
+        <header className="h-50 container-fluid bg-light">
+            <h2>
+                <a href="/" className="m-5 h-50 d-inline-block bg-light pb-5">
+                    Audry Ford Web Developer
+                </a>
+                <Navigation></Navigation>
+            </h2>
+        </header>
+
     )
 }
 

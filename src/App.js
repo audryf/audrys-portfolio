@@ -1,20 +1,25 @@
 import React from 'react';
 import About from './components/About';
+import Contact from './components/Contact';
 import Header from './components/Header';
-
-
-// import About from './components/About';
-import './App.css';
+import ProjectList from './components/ProjectList'
 
 function App() {
+    // const [contactSelected, setContactSelected] = useState(false);
+    // const [aboutSelected, setAboutSelected] = useState(true);
+    // const [portfolioSelected, setPortfolioSelected] = useState(false)
+
     return (
-        <div className="App container">
-            <Header>
-            </Header>
+        <div className="container">
+            <div className="">
+            <Header/>
             <main>
-                <About></About>
-                
+                <ProjectList/>
+                <About/>
+                <Contact/>
             </main>
+            </div>
+            
         
         </div>
        
