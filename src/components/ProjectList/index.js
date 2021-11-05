@@ -1,5 +1,5 @@
 import React from "react";
-import projects from '../assets/db/projects';
+import projects from '../../assets/db/projects';
 import Project from "../Project";
 
 function ProjectList() {

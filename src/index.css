@@ -1,16 +1,48 @@
+:root {
+  --card-color: #4b8f8c;
+  --main-bg-color: #2b193d;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.1em;
-  background: var(--dark);
-  color: var(--light);
-  font-family: 'Poiret One', cursive;
+  background-color: black;
+  font-family: 'Inconsolata', monospace;
+  /* background-image: url("./../src/assets/images/background-image-lights.jpg"); */
+  background: linear-gradient(45deg, #2B193D, #2C365E, #484D6D, #4B8F8C);
+	background-size: 400% 400%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+	animation: move 10s ease-in-out infinite;
+	
+}
+
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-text-color {
+  color: aliceblue;
+}
+
+.card-text-color {
+  color: black;
 }

@@ -1,4 +1,4 @@
-import React from "react"
+
 import forgeImg from '../images/projects/forge.png'
 import weatherImg from '../images/projects/weather-dashboard.png'
 import budgetImg from '../images/projects/budget-tracker.png'
@@ -29,7 +29,7 @@ const projects = [
         "id": 2,
         "listKey": "b",
         "title": "Weather Dashboard",
-        "description": "See the weather for any location in the US. Your searches will be saved for easy future planning. Enter in the city and state you wish to see the weather for and get current conditions, plus 5-day forecast.",
+        "description": "See the weather for any location in the US. Searches will be saved for easy future planning. Enter in the city and state to get the current conditions, plus 5-day forecast.",
         "skillsUsed": [
             "Third-Party API",
             "BootStrap",
@@ -44,7 +44,7 @@ const projects = [
         "id": 3,
         "listKey": "c",
         "title": "Budget Tracker",
-        "description": "Budget Tracker - a PWA that allows you to keep track of expenses and earnings anytime, anywhere.",
+        "description": "Budget Tracker - a progressive web application that allows users to keep track of expenses and earnings on or offline.",
         "skillsUsed": [
             "Express.js",
             "MongoDB / Mongoose",
@@ -60,7 +60,7 @@ const projects = [
         "id": 4,
         "listKey": "d",
         "title": "Note Taker",
-        "description": "A simple note taking application that allows you to create new notes and save them to keep your mind focused through out the day.",
+        "description": "A simple note taking application that allows you to create new notes and save them using localStorage.",
         "skillsUsed": [
             "JavaScript",
             "HTML",
@@ -91,7 +91,7 @@ const projects = [
         "id": 6,
         "listKey": "f",
         "title": "Code Quiz",
-        "description": "Have fun and test your JavaScript skills but playing a timed coding quiz. Wrong answers are penalized 10 seconds and your remaining time at the end is your score. Can you beat the high score?",
+        "description": "User's play a JavaScript trivia game that is timed and keeps score. The score is determined by time remaining on the clock once all questions have been answered. Incorrect answers have a time penalty of 10 seconds.",
         "skillsUsed": [
             "JavaScript",
             "HTML",

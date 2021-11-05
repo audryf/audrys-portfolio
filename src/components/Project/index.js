@@ -1,5 +1,5 @@
 import React from "react";
-import gitLogo from '../assets/images/logos/github-logo.png'
+import gitLogo from '../../assets/images/logos/github-logo.png'
 
 export default function Project(props) {
     // const image = props.images.length ? props.images[0] : "https://via.placeholder.com/320x180"
@@ -17,7 +17,7 @@ export default function Project(props) {
                             alt={props.title} />
                     </a>
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 card-text-color">
                     <div className="card-body row">
                         <h5 className="card-title fw-bold col-md-6">
                             {props.title}

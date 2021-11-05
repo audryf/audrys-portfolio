@@ -2,27 +2,37 @@ import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import ProjectList from './components/ProjectList'
+import ProjectList from './components/ProjectList';
+import Footer from './components/Footer'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
 
 function App() {
-    // const [contactSelected, setContactSelected] = useState(false);
-    // const [aboutSelected, setAboutSelected] = useState(true);
-    // const [portfolioSelected, setPortfolioSelected] = useState(false)
 
     return (
-        <div className="container">
-            <div className="">
-            <Header/>
-            <main>
-                <ProjectList/>
-                <About/>
-                <Contact/>
-            </main>
+        <Router>
+            <div className="container main-text-color">
+                <div className="">
+                    <Header />
+                    <main>
+                        <Switch>
+                            <Route exact path="/" component={About} />
+                            <Route path="/portfolio" component={ProjectList} />
+                            <Route path="/contact" component={Contact} />
+                        </Switch>
+                        {/* <About />
+                        <Contact />
+                        <ProjectList /> */}
+                    </main>
+                    <Footer />
+                </div>
             </div>
-            
-        
-        </div>
-       
+        </Router>
+
+
     );
 }
 

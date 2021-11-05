@@ -3,9 +3,9 @@ import React from "react";
 function Footer () {
 
     return (
-        <section>
-
-        </section>
+        <footer className="text-center pt-5 mt-5">
+            Copyright &copy; {new Date().getFullYear()}
+        </footer>
     )
 }
 
