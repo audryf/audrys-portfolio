@@ -6,6 +6,7 @@ function ProjectList() {
 
     return (
         <div>
+            <h1 className="row justify-content-center m-5 p-5 header-font display-3">Portfolio</h1>
             {
                 projects.map((project) => (
                     <Project 

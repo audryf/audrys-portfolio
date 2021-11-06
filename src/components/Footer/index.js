@@ -9,7 +9,7 @@ function Footer() {
 
             <div className="container">
             <div>
-                <ul className="list-bullets">
+                <ul className="no-bullets text-center">
                     <li>
                         Overland Park, KS 66204
                     </li>

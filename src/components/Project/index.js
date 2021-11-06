@@ -19,10 +19,10 @@ export default function Project(props) {
                 </div>
                 <div className="col-md-8">
                     <div className="card-body row">
-                        <h5 className="card-title header-font fw-bold pb-4 col-md-6">
+                        <h5 className="card-title header-font header-font-lg fw-bold pb-4 col-md-6">
                             {props.title}
                         </h5>
-                        <div className="fst-italic header-font col-md-6">
+                        <div className="fst-italic header-font-lg header-font col-md-6 text-end">
                             {props.role}
                         </div>
 
