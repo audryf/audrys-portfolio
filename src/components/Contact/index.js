@@ -40,27 +40,32 @@ function Contact() {
 
     return (
         <section>
-            <h1>Contact me</h1>
-            <form id="contact-form" onSubmit={submitHandler}>
-                <div>
-                    <label htmlFor="name">Name:</label>
+            <h1 className="header-font">Have a question?</h1>
+            <br />
+            <form className="container" id="contact-form" onSubmit={submitHandler}>
+                <div className="row">
+                    <label htmlFor="name">Name: </label>
                     <input name="name" type="text" onBlur={changeHandler} defaultValue={name} />
                 </div>
-                <div>
+                <br />
+                <div className="row">
                     <label htmlFor="email">Email:</label>
                     <input name="email" type="email" onBlur={changeHandler} defaultValue={email} />
                 </div>
-                <div>
+                <br />
+                <div className="row">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" onBlur={changeHandler} defaultValue={message} rows="5" />
                 </div>
+                <br />
                 {error && (
                     <div>
                         <p>{error}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button className="btn btn-outline-light btn-lg center" type="submit">Submit</button>
             </form>
+            
         </section>
     );
 

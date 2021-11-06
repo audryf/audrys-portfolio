@@ -44,7 +44,7 @@ const projects = [
         "id": 3,
         "listKey": "c",
         "title": "Budget Tracker",
-        "description": "Budget Tracker - a progressive web application that allows users to keep track of expenses and earnings on or offline.",
+        "description": "Budget Tracker - a progressive web application that allows users to keep track of expenses and earnings, on or offline.",
         "skillsUsed": [
             "Express.js",
             "MongoDB / Mongoose",

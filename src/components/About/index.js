@@ -1,15 +1,14 @@
 import React from "react";
-import avatar from '../../assets/images/avatar/avataaars.png'
+import headshot from '../../assets/images/personal/headshot.JPEG'
 
 function About() {
 
     return (
         <section className="container">
-            <span>
-                <img src={avatar} alt="avatar" height="100rem"/>
-            </span>
             <div>
-                <p>Energized by my decision to change career paths, I am a tech bootcamp grad looking to make a difference, the sky's the limit. I have found my calling. Learning the in's and out's of web development, front-end and back-end, has been exciting and rewarding. I thrive on constructive feedback and learn new things quickly. I love to collaborate in teams and want to take my skills to the next level.</p>
+                <img id="headshot" className="me-5" src={headshot} alt="headshot of audry outside smiling wearing a black sweater and white beaded necklace" align="left"/>
+            
+                <p className="" align="center"><br/><br/>Energized by my decision to change career paths, I am a tech bootcamp grad looking to make a difference. I have found my calling. Learning the in's and out's of web development, front-end and back-end, has been exciting and rewarding. I thrive on constructive feedback and learn new things quickly. I love to collaborate in teams and want to take my skills to the next level.</p>
             </div>
         </section>
 

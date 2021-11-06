@@ -11,8 +11,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.1em;
   background-color: black;
-  font-family: 'Inconsolata', monospace;
-  /* background-image: url("./../src/assets/images/background-image-lights.jpg"); */
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(45deg, #2B193D, #2C365E, #484D6D, #4B8F8C);
 	background-size: 400% 400%;
   background-repeat: no-repeat;
@@ -20,6 +19,18 @@ body {
   color: white;
 	animation: move 10s ease-in-out infinite;
 	
+}
+
+header, footer {
+  font-family: 'Inconsolata', monospace;
+  /* font-family: 'Anton', sans-serif; */
+}
+
+.header-font {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 @keyframes move {
@@ -45,4 +56,52 @@ code {
 
 .card-text-color {
   color: black;
+}
+
+#headshot {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 10px black;
+  display: inline-block;
+}
+
+#about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.work-image {
+  width: 50rem;
+  height: 25rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+.work-image:hover {
+  opacity: 65%;
+}
+
+.nav-button {
+  text-decoration: none;
+}
+.nav-button:hover {
+
+  background-color: #4b8f8c;
+  color: black !important;
+  border-radius: 20%;
+}
+.nav-button:visited {
+
+  background-color: #4b8f8c;
+  color: black !important;
+  border-radius: 20%;
+}
+
+.list-bullets {
+  list-style: none;
+  text-align: center;
 }

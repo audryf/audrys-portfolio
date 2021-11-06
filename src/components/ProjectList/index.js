@@ -23,8 +23,6 @@ function ProjectList() {
                 ))
             }
         </div>
-
-
     )
 }
 
