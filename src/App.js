@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
@@ -13,6 +13,8 @@ import {
 } from "react-router-dom";
 
 function App() {
+    document.title = "Audry Ford - Web Developer"
+    const [aboutSelected, setAboutSelected] = useState(true);
 
     return (
         <Router>
@@ -20,12 +22,14 @@ function App() {
 
                 <Header />
                 <main>
+                    {aboutSelected && <About />}
                     <Switch>
                         <Route exact path="/" component={About} />
                         <Route exact path="/portfolio" component={ProjectList} />
                         <Route exact path="/contact" component={Contact} />
                         <Route exact path="/resume" component={Resume} />
                     </Switch>
+
                 </main>
                 <Footer />
 
