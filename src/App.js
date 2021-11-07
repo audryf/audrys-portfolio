@@ -22,14 +22,14 @@ function App() {
 
                 <Header />
                 <main>
-                    {aboutSelected && <About />}
+                    
                     <Switch>
                         <Route exact path="/" component={About} />
                         <Route exact path="/portfolio" component={ProjectList} />
                         <Route exact path="/contact" component={Contact} />
                         <Route exact path="/resume" component={Resume} />
                     </Switch>
-
+                    {aboutSelected && <About />}
                 </main>
                 <Footer />
 
