@@ -4,7 +4,7 @@ function Resume() {
 
     return (
         <div className="container">
-            <h1 className="row justify-content-center m-5 p-5 header-font">
+            <h1 className="row text-center m-5 p-5 header-font display-3">
                 Resume and Technical Skills
             </h1>
             <br />
