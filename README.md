@@ -11,7 +11,7 @@
 <br>
 
 ## Description 🗒
-My professional portfolio, create from scratch using React and create-react-app. Click around to see my work, resume, contact info, and a little something about me! 
+My professional portfolio, created from scratch using React and create-react-app. Click around to see my work, resume, contact info, and a little something about me! 
 
 I had a lot of fun with this and learned so much! I am new to React and I see why it's so widely used!
 
