@@ -15,7 +15,7 @@
 ## Description 🗒
 My professional portfolio, create from scratch using React and create-react-app. Click around to see my work, resume, contact info, and a little something about me! 
 
-I had a lot of fun with this! I am new to React and I see why it's so widely used!
+I had a lot of fun with this and learned so much! I am new to React and I see why it's so widely used!
 
 Check out the deployed portfolio [here](https://audryf.github.io/audrys-portfolio/)
 <br>
@@ -32,7 +32,7 @@ Check out the deployed portfolio [here](https://audryf.github.io/audrys-portfoli
 <br>
 
 ## Contributions 👥
-Contributions are welcome! I am always looking for ways to improve and I love getting feedback on my work. If you have any suggestions or ideas to help me do better (in any way, best practices, better code anything!) please let me know but email or creating a github issue. You will be mentioned below for any advice used!
+Contributions are welcome! I am always looking for ways to improve and I love getting feedback on my work. If you have any suggestions or ideas to help me do better (in any way, best practices, better code, anything!) please let me know by email or creating a github issue. You will be mentioned below for any advice used!
 <br>
 
 ## Contributors 💗
