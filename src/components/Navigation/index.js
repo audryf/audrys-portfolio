@@ -1,9 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import './About';
-// import './Portfolio';
-// import './Contact';
-// import './Resume';
 
 function Navigation() {
 
@@ -22,7 +18,7 @@ function Navigation() {
               <Link to="/contact" className="nav-link main-text-color">Contact</Link>
             </li>
             <li className="m-2 nav-button">
-              <Link to="/resume" className="nav-link main-text-color ">Resume</Link>
+              <Link to="/resume" className="nav-link main-text-color">Resume</Link>
             </li>
           </ul>
         </div>
