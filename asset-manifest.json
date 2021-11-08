@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/audrys-portfolio/static/css/main.a875fbac.chunk.css",
+    "main.css": "/audrys-portfolio/static/css/main.20a10f57.chunk.css",
     "main.js": "/audrys-portfolio/static/js/main.aff51d6b.chunk.js",
     "main.js.map": "/audrys-portfolio/static/js/main.aff51d6b.chunk.js.map",
     "runtime-main.js": "/audrys-portfolio/static/js/runtime-main.84d3b9d4.js",
@@ -10,7 +10,7 @@
     "static/js/3.360685fc.chunk.js": "/audrys-portfolio/static/js/3.360685fc.chunk.js",
     "static/js/3.360685fc.chunk.js.map": "/audrys-portfolio/static/js/3.360685fc.chunk.js.map",
     "index.html": "/audrys-portfolio/index.html",
-    "static/css/main.a875fbac.chunk.css.map": "/audrys-portfolio/static/css/main.a875fbac.chunk.css.map",
+    "static/css/main.20a10f57.chunk.css.map": "/audrys-portfolio/static/css/main.20a10f57.chunk.css.map",
     "static/js/2.f43ebb14.chunk.js.LICENSE.txt": "/audrys-portfolio/static/js/2.f43ebb14.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.87ee985c.png": "/audrys-portfolio/static/media/budget-tracker.87ee985c.png",
     "static/media/code-quiz.88fdc974.png": "/audrys-portfolio/static/media/code-quiz.88fdc974.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.84d3b9d4.js",
     "static/js/2.f43ebb14.chunk.js",
-    "static/css/main.a875fbac.chunk.css",
+    "static/css/main.20a10f57.chunk.css",
     "static/js/main.aff51d6b.chunk.js"
   ]
 }
