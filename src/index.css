@@ -86,7 +86,7 @@ code {
   display: inline-block;
 }
 .work-image:hover {
-  opacity: 65%;
+  opacity: 0.5;
 }
 
 .nav-button {
