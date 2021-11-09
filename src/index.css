@@ -12,19 +12,7 @@ body {
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   color: white;
-	animation: move 10s ease-in-out infinite;
-}
-
-@keyframes move {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+	animation: 10s ease-in-out infinite;
 }
 
 header, footer {
@@ -86,4 +74,11 @@ header, footer {
 
 .no-bullets {
   list-style: none;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    animation: none;
+    background-size: 400%;
+  }
 }
