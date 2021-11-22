@@ -68,7 +68,7 @@ function Resume() {
             </div>
             <br />
             <div className="row">
-                <a download href="https://drive.google.com/uc?export=download&id=1tPw78qDagKH8cFHdPVtMKS_8CTa2iLCo" title="Resume">
+                <a download href="https://drive.google.com/uc?export=download&id=1GF-3woZE813wVCHA54VVIJknhijS8Ndo6JhoB5uUciQ" title="Resume">
                     Click to download resume
                 </a>
             </div>

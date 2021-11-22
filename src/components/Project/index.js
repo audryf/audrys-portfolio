@@ -2,11 +2,7 @@ import React from "react";
 import gitLogo from '../../assets/images/logos/github-logo.png'
 
 export default function Project(props) {
-    // const image = props.images.length ? props.images[0] : "https://via.placeholder.com/320x180"
-
-
     return (
-
         <div className="my-5">
             <div className="row card-bg g-0">
                 <div className="col-md-4">
